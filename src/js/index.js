@@ -1,3 +1,7 @@
-/**
- * Created by Olga on 8/24/17.
- */
+$(document).ready(function () {
+    var simpleDateInput = $(".input-simple-date");
+    simpleDateInput.datepicker({
+
+    });
+
+});

@@ -1,0 +1,16 @@
+include template/common/head
+include template/common/scripts
+doctype
+html
+    head
+        +head
+    body
+        main.main
+            h2.form-date__description Choose date
+            form.date-form
+                .date-form__row
+                    input.date-form__input.input-simple-date(type="text")
+                .date-form__row
+                    input.date-form__button(type="submit" value="Submit")
+
+        +scripts
