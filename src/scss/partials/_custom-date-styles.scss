@@ -5,7 +5,7 @@
   }
   &-month,
   &-year{
-    color: $color-gray-light;
+    color: $color-gray-dark;
   }
 }
 
@@ -40,6 +40,22 @@
   .ui-state-active{
     background: $color-blue;
     border: 1px solid $color-blue;
+  }
+
+}
+
+
+.static-calendar{
+
+  .ui-datepicker {
+    width: 220px;
+  }
+  .ui-datepicker-header{
+    margin: 0 auto;
+    width: 95%;
+  }
+  .ui-datepicker-group{
+    width: 100%;
   }
 
 }
