@@ -6,8 +6,10 @@ $(document).ready(function () {
         selectOtherMonths: true,
         showAnim: "clip",
         duration: "slow",
-        showButtonPanel: true
+        showButtonPanel: true,
+        dateFormat: "dd-mm-yy"
     });
+    simpleDateInput.datepicker("setDate",  new Date());
     staticCalendar.datepicker({
         showOtherMonths: true,
         selectOtherMonths: true,
