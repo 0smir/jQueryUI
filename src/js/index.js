@@ -4,7 +4,8 @@ $(document).ready(function () {
     simpleDateInput.datepicker({
         showOtherMonths: true,
         selectOtherMonths: true,
-        showAnim: "clip"
+        showAnim: "clip",
+        showButtonPanel: true
 
     });
 });
