@@ -1,0 +1,45 @@
+.ui-datepicker{
+  width: 195px;
+  &-header{
+    background: $color-gray-medium;
+  }
+  &-month,
+  &-year{
+    color: $color-gray-light;
+  }
+}
+
+.ui-datepicker-calendar{
+  background: $color-gray-light;
+
+  .ui-datepicker-days-cell-over{
+
+  }
+  .ui-state-default{
+    background: $color-white;
+    color: $color-gray-dark;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    &:hover,
+    &:focus,
+    &:active{
+      background: $color-gray-light;
+    }
+  }
+  .ui-state-highlight{
+    background: rgba($color-blue, .7);
+    color: $color-gray-light;
+    border: 1px solid $color-blue;
+    &:hover,
+    &:focus,
+    &:active{
+      background: rgba($color-blue, .5);
+    }
+  }
+  .ui-state-active{
+    background: $color-blue;
+    border: 1px solid $color-blue;
+  }
+
+}
